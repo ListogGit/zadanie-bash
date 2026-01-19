@@ -21,7 +21,7 @@ sh имя_скрипта.sh
 ```
 Или сделайте скрипты исполняемыми:
 ```bash
-textchmod +x *.sh
+chmod +x *.sh
 ./имя_скрипта.sh
 ```
 📝 Описание скриптов
@@ -29,21 +29,21 @@ textchmod +x *.sh
 greeting.sh <a name="greeting"></a>Спрашивает имя пользователя и выводит персонализированное приветствие.
 Пример использования:
 ```bash
-textsh greeting.sh
+sh greeting.sh
 ```
 sum_calculator.sh <a name="sum-calculator"></a>Запрашивает два числа и выводит их сумму.
 Пример использования:
 ```bash
-textsh sum_calculator.sh
+sh sum_calculator.sh
 ```
 parity_check.sh <a name="parity-check"></a>Определяет, является ли введенное число четным или нечетным.
 Пример использования:
 ```bash
-textsh parity_check.sh
+sh parity_check.sh
 ```
 project_structure.sh <a name="project-structure"></a>Создает структуру папок для веб-проекта:
 ```text
-textmy-project/
+my-project/
 ├── index.html
 ├── css/
 │   └── style.css
@@ -52,24 +52,24 @@ textmy-project/
 ```
 Пример использования:
 ```bash
-textsh project_structure.sh
+sh project_structure.sh
 ```
 
 line_counter.sh <a name="line-counter"></a>Подсчитывает количество строк в указанном файле.
 Пример использования:
 ```bash
-textsh line_counter.sh
+sh line_counter.sh
 ```
 password_generator.sh <a name="password-generator"></a>Генерирует случайный пароль длиной 8 символов.
 Пример использования:
 ```bash
-textsh password_generator.sh
+sh password_generator.sh
 ```
 
 file_search.sh <a name="file-search"></a>Ищет файлы по расширению в текущей директории.
 Пример использования:
 ```bash
-textsh file_search.sh
+sh file_search.sh
 ```
 ## 🔧 Требования
 
@@ -79,7 +79,7 @@ textsh file_search.sh
 
 ## 📁 Структура репозитория
 ```text
-textbash-scripts/
+bash-scripts/
 ├── README.md
 ├── greeting.sh
 ├── sum_calculator.sh
@@ -92,5 +92,5 @@ textbash-scripts/
 ## ✅ Проверка скриптов
 Все скрипты протестированы и работают при выполнении командой:
 ```bash
-textsh script_name.sh
+sh script_name.sh
 ```
